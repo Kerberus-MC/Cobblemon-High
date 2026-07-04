@@ -1,26 +1,34 @@
 # Cobblemon High
 
-A Cobblemon Training high school adventure!
+A curated Minecraft modpack by [Kerberus MC](https://github.com/Kerberus-MC).
 
-[![CurseForge](https://img.shields.io/badge/CurseForge-Download-orange)](https://www.curseforge.com/minecraft/modpacks/cobblemon-high)
+## Details
 
-## Download
+| | |
+|---|---|
+| **Minecraft** | 1.21.1 |
+| **Mod Loader** | Fabric 0.18 |
+| **Mods** | 264 |
 
-- **Client:** Install via [CurseForge App](https://www.curseforge.com/minecraft/modpacks/cobblemon-high) or download from [GitHub Releases](https://github.com/Kerberus-MC/Cobblemon-High/releases).
-- **Server:** Download server packs from [GitHub Releases](https://github.com/Kerberus-MC/Cobblemon-High/releases).
+## About
+
+A Cobblemon-focused modpack combining the Pokemon experience with vanilla-plus exploration and building.
+
+## Repository Structure
+
+This repo tracks only the pack's customization layer:
+- `config/` - Mod configuration files
+- `kubejs/` - KubeJS scripts (recipes, events, loot)
+- `datapacks/` - Custom datapacks
+- `defaultconfigs/` - Server-side default configs
+- `changelogs/` - Release changelogs
+
+Mods, saves, and runtime files are managed by CurseForge and not tracked here.
 
 ## Issues
 
 Found a bug or have a suggestion? [Open an issue](https://github.com/Kerberus-MC/Cobblemon-High/issues).
 
-## Community
+## License
 
-Join us on Discord: https://discord.gg/kfR6WyFSr7
-
-## Changelog
-
-See [CHANGELOG.md](CHANGELOG.md) and [Releases](https://github.com/Kerberus-MC/Cobblemon-High/releases) for version history.
-
----
-
-> **Note:** `manifest.json` may not always be present in the repo — it is generated at export time by CurseForge.
+All Rights Reserved. See [LICENSE](LICENSE).
