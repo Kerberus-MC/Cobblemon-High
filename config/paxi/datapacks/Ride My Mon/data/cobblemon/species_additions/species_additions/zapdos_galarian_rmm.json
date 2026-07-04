@@ -1,0 +1,29 @@
+{
+  "target": "cobblemon:zapdos",
+    "features": ["galarian"],
+  "riding": {
+    "behaviours": {
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "canJump": false,
+        "canSprint": false,
+        "stats": {
+          "SPEED": "60-90",
+          "ACCELERATION": "70-90",
+          "SKILL": "30-60",
+          "JUMP": "25-50",
+          "STAMINA": "60-80"
+        }
+      }
+    },
+    "seats": [
+      {
+        "offset": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    ]
+  }
+}

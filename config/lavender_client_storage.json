@@ -1,0 +1,121 @@
+{
+  "bookmarks": {},
+  "opened_books": {
+    "aeb7901c-9b7d-45d7-a525-7febe0384be4": [
+      "knowlogy:knowlogy_book"
+    ],
+    "f71e1f95-c40e-4330-af23-e1af52dad3f7": [
+      "knowlogy:knowlogy_book"
+    ],
+    "5dc3abce-b9d6-4256-a988-8a2467652358": [
+      "knowlogy:knowlogy_book"
+    ],
+    "e7bf5167-793f-4bc9-8372-c02acda58a60": [
+      "knowlogy:knowlogy_book"
+    ],
+    "bfaa3a9b-114a-428d-a6ef-c3b8f24035ee": [
+      "knowlogy:knowlogy_book"
+    ],
+    "cc742eab-9a91-48b5-aa59-809955a83ee8": [
+      "knowlogy:knowlogy_book"
+    ],
+    "c47cc3f4-4d63-4792-8c81-12894d5fec1a": [
+      "knowlogy:knowlogy_book"
+    ],
+    "514a6240-ebe4-44ea-8520-c871ee8903b1": [
+      "knowlogy:knowlogy_book"
+    ],
+    "b981223f-f82a-45d1-9b36-f51625c816cc": [
+      "knowlogy:knowlogy_book"
+    ],
+    "45cf7b0c-488e-482d-820e-c4822e215180": [
+      "knowlogy:knowlogy_book"
+    ],
+    "0c189428-572a-473f-88f2-ecd7b6dd765d": [
+      "knowlogy:knowlogy_book"
+    ],
+    "ef04448c-9b40-4ff8-bcd1-6fc22e6ca0d3": [
+      "knowlogy:knowlogy_book"
+    ],
+    "4f5c4afd-fc73-40af-99fb-5a2d75988141": [
+      "knowlogy:knowlogy_book"
+    ],
+    "d051818e-8ec2-41df-80bc-71f72b74ce0c": [
+      "knowlogy:knowlogy_book"
+    ],
+    "94f27d4d-7217-4a30-a9ab-a7509037d865": [
+      "knowlogy:knowlogy_book"
+    ],
+    "4d7662b9-8182-48a6-ad0d-2ca5065512e8": [
+      "knowlogy:knowlogy_book"
+    ],
+    "400bb2d8-7e66-4b0a-929d-9aa5a3e4d228": [
+      "knowlogy:knowlogy_book"
+    ]
+  },
+  "viewed_entries": {
+    "aeb7901c-9b7d-45d7-a525-7febe0384be4": {
+      "knowlogy:knowlogy_book": [
+        "cobblemon:pokeball",
+        "cobblenav:pokenav",
+        "cobblemon:battling",
+        "cobblemon:pokemon_spawning",
+        "cobblemon:catching",
+        "cobblemon:nurse_villager",
+        "cobblemon_smartphone:smartphone"
+      ]
+    },
+    "f71e1f95-c40e-4330-af23-e1af52dad3f7": {
+      "knowlogy:knowlogy_book": [
+        "minecraft:tree"
+      ]
+    },
+    "5dc3abce-b9d6-4256-a988-8a2467652358": {
+      "knowlogy:knowlogy_book": [
+        "cobblemon:ancient_heavy_ball",
+        "cobblemon:mint",
+        "cobblemon:hondew_berry",
+        "cobblemon:wiki_berry",
+        "cobblemon:vivichoke_seeds"
+      ]
+    },
+    "bfaa3a9b-114a-428d-a6ef-c3b8f24035ee": {
+      "knowlogy:knowlogy_book": [
+        "cobblemon:nurse_villager"
+      ]
+    },
+    "cc742eab-9a91-48b5-aa59-809955a83ee8": {
+      "knowlogy:knowlogy_book": [
+        "minecraft:glow_berries"
+      ]
+    },
+    "c47cc3f4-4d63-4792-8c81-12894d5fec1a": {
+      "knowlogy:knowlogy_book": [
+        "minecraft:sniffer",
+        "minecraft:sniffer_egg"
+      ]
+    },
+    "b981223f-f82a-45d1-9b36-f51625c816cc": {
+      "knowlogy:knowlogy_book": [
+        "cobblemon:relic_coin"
+      ]
+    },
+    "0c189428-572a-473f-88f2-ecd7b6dd765d": {
+      "knowlogy:knowlogy_book": [
+        "minecraft:smithing_table",
+        "minecraft:chiseled_bookshelf",
+        "minecraft:tinted_glass"
+      ]
+    },
+    "4f5c4afd-fc73-40af-99fb-5a2d75988141": {
+      "knowlogy:knowlogy_book": [
+        "minecraft:diamond_axe"
+      ]
+    },
+    "4d7662b9-8182-48a6-ad0d-2ca5065512e8": {
+      "knowlogy:knowlogy_book": [
+        "cobblemon:binding_band"
+      ]
+    }
+  }
+}

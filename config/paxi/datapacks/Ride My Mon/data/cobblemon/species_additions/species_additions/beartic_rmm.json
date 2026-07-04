@@ -1,0 +1,31 @@
+{
+  "target": "cobblemon:beartic",
+  "riding": {
+    "behaviours": {
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "stats": {
+          "SPEED": "30-50",
+          "ACCELERATION": "20-40",
+          "SKILL": "20-40",
+          "JUMP": "10-30",
+          "STAMINA": "40-80"
+        }
+      },
+      "LIQUID": {
+        "key": "cobblemon:liquid/boat",
+        "stats": {
+          "SPEED": "40-60",
+          "ACCELERATION": "30-50",
+          "SKILL": "30-50",
+          "JUMP": "10-20",
+          "STAMINA": "60-100"
+        }
+      }
+    },
+    "seats": [
+      { "offset": { "x": 0.0, "y": 1.2, "z": 0.0 } },
+      { "offset": { "x": 0.0, "y": 1.5, "z": -0.5 } }
+    ]
+  }
+}

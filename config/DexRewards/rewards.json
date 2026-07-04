@@ -1,0 +1,456 @@
+{
+  "reward_groups": {
+    "Ranger Rank 1": {
+      "icon": "cobblemon:healing_machine",
+      "icon_data": {},
+      "required_caught_percent": 1.0,
+      "rewards": {
+	    "command_group": {
+          "type": "command",
+          "commands": [
+            "tellraw @a [\"\",{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"DexRewards\",\"color\":\"blue\"},{\"text\":\"]\",\"color\":\"dark_gray\"},{\"text\":\" You ranked up and received a Healing Machine and PC! \",\"color\":\"gold\"}]"
+          ]
+        },
+        "item_group": {
+          "type": "item",
+          "item": "cobblemon:healing_machine",
+          "item_data": {},
+          "count": 1
+        },
+        "item_group_2": {
+          "type": "item",
+          "item": "cobblemon:pc",
+          "item_data": {},
+          "count": 1
+        }
+      }
+    },
+    "Ranger Rank 2": {
+      "icon": "toffys_hooks:grappling_hook",
+      "icon_data": {},
+      "required_caught_percent": 2.0,
+      "rewards": {
+	    "command_group": {
+          "type": "command",
+          "commands": [
+            "tellraw @a [\"\",{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"DexRewards\",\"color\":\"blue\"},{\"text\":\"]\",\"color\":\"dark_gray\"},{\"text\":\" You ranked up and received a grappling hook! Use it to explore the world! \",\"color\":\"gold\"}]"
+          ]
+		},
+        "item_group": {
+          "type": "item",
+          "item": "toffys_hooks:grappling_hook",
+          "item_data": {},
+          "count": 1
+        },
+        "item_group_2": {
+          "type": "item",
+          "item": "cobblemon:relic_coin",
+          "item_data": {},
+          "count": 64
+        }
+      }
+    },
+    "Ranger Rank 3": {
+      "icon": "cobblemon:exp_candy_s",
+      "icon_data": {},
+      "required_caught_percent": 3.0,
+      "rewards": {
+	    "command_group": {
+          "type": "command",
+          "commands": [
+            "tellraw @a [\"\",{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"DexRewards\",\"color\":\"blue\"},{\"text\":\"]\",\"color\":\"dark_gray\"},{\"text\":\" You ranked up! You received EXP Candy! \",\"color\":\"gold\"}]"
+          ]
+		},
+        "item_group": {
+          "type": "item",
+          "item": "cobblemon:exp_candy_s",
+          "item_data": {},
+          "count": 16
+        },
+        "item_group_2": {
+          "type": "item",
+          "item": "cobblemon:relic_coin",
+          "item_data": {},
+          "count": 64
+        }
+      }
+    },
+    "Ranger Rank 4": {
+      "icon": "unimplemented_items:bottle_cap",
+      "icon_data": {},
+      "required_caught_percent": 4.0,
+      "rewards": {
+	    "command_group": {
+          "type": "command",
+          "commands": [
+            "tellraw @a [\"\",{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"DexRewards\",\"color\":\"blue\"},{\"text\":\"]\",\"color\":\"dark_gray\"},{\"text\":\" You ranked up! You received a bottle cap. Craft it with an apricorn! \",\"color\":\"gold\"}]"
+          ]
+		},
+        "item_group": {
+          "type": "item",
+          "item": "unimplemented_items:bottle_cap",
+          "item_data": {},
+          "count": 3
+        }
+      }
+    },
+    "Ranger Rank 5": {
+      "icon": "minecraft:saddle",
+      "icon_data": {},
+      "required_caught_percent": 5.0,
+      "rewards": {
+	    "command_group": {
+          "type": "command",
+          "commands": [
+            "tellraw @a [\"\",{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"DexRewards\",\"color\":\"blue\"},{\"text\":\"]\",\"color\":\"dark_gray\"},{\"text\":\" You ranked up! You received a bottle cap. Craft it with an apricorn! \",\"color\":\"gold\"}]"
+          ]
+		},
+	    "command_group_2": {
+          "type": "command",
+          "commands": [
+            "/givepokemonother @p wyrdeer level=30 speed_iv=31 attack_iv=31"
+          ]
+		},
+        "item_group": {
+          "type": "item",
+          "item": "minecraft:saddle",
+          "item_data": {},
+          "count": 1
+        }
+      }
+    },
+    "Ranger Rank 6": {
+      "icon": "cobblemon:ultra_ball",
+      "icon_data": {},
+      "required_caught_percent": 6.0,
+      "rewards": {
+	    "command_group": {
+          "type": "command",
+          "commands": [
+            "tellraw @a [\"\",{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"DexRewards\",\"color\":\"blue\"},{\"text\":\"]\",\"color\":\"dark_gray\"},{\"text\":\" You ranked up! You received Ultra Balls! \",\"color\":\"gold\"}]"
+          ]
+		},
+        "item_group": {
+          "type": "item",
+          "item": "cobblemon:ultra_ball",
+          "item_data": {},
+          "count": 16
+        },
+        "item_group_2": {
+          "type": "item",
+          "item": "cobblemon:relic_pouch",
+          "item_data": {},
+          "count": 10
+        }
+      }
+    },
+    "Ranger Rank 7": {
+      "icon": "unimplemented_items:bottle_cap_gold",
+      "icon_data": {},
+      "required_caught_percent": 7.0,
+      "rewards": {
+	    "command_group": {
+          "type": "command",
+          "commands": [
+            "tellraw @a [\"\",{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"DexRewards\",\"color\":\"blue\"},{\"text\":\"]\",\"color\":\"dark_gray\"},{\"text\":\" You ranked up! You received a Golden Bottle Cap! Use it to raise every IV of a single Pokemon to 31! \",\"color\":\"gold\"}]"
+          ]
+		},
+        "item_group": {
+          "type": "item",
+          "item": "unimplemented_items:bottle_cap_gold",
+          "item_data": {},
+          "count": 1
+        }
+      }
+    },
+    "Ranger Rank 8": {
+      "icon": "legendarymonuments:arc_phone",
+      "icon_data": {},
+      "required_caught_percent": 8.0,
+      "rewards": {
+	    "command_group": {
+          "type": "command",
+          "commands": [
+            "tellraw @a [\"\",{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"DexRewards\",\"color\":\"blue\"},{\"text\":\"]\",\"color\":\"dark_gray\"},{\"text\":\" You received an Arc Phone, Fire Charge and Poketreat Boxes! Use these to track down the Burned Tower! \",\"color\":\"gold\"}]"
+          ]
+		},
+        "item_group": {
+          "type": "item",
+          "item": "legendarymonuments:arc_phone",
+          "item_data": {},
+          "count": 1
+		},
+        "item_group_2": {
+          "type": "item",
+          "item": "minecraft:fire_charge",
+          "item_data": {},
+          "count": 1
+		},
+        "item_group_3": {
+          "type": "item",
+          "item": "legendarymonuments:poketreat_box",
+          "item_data": {},
+          "count": 3
+        }
+      }
+    },
+    "Ranger Rank 9": {
+      "icon": "minecraft:diamond_sword",
+      "icon_data": {},
+      "required_caught_percent": 9.0,
+      "rewards": {
+	    "command_group": {
+          "type": "command",
+          "commands": [
+            "tellraw @a [\"\",{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"DexRewards\",\"color\":\"blue\"},{\"text\":\"]\",\"color\":\"dark_gray\"},{\"text\":\" You received a Diamond Block! How will you use it? \",\"color\":\"gold\"}]"
+          ]
+		},
+        "item_group": {
+          "type": "item",
+          "item": "minecraft:diamond_block",
+          "item_data": {},
+          "count": 1
+		},
+        "item_group_2": {
+          "type": "item",
+          "item": "cobblemon:relic_coin_sack",
+          "item_data": {},
+          "count": 1
+        }
+      }
+    },
+    "Ranger Rank 10": {
+      "icon": "minecraft:netherite_sword",
+      "icon_data": {},
+      "required_caught_percent": 10.0,
+      "rewards": {
+	    "command_group": {
+          "type": "command",
+          "commands": [
+            "tellraw @a [\"\",{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"DexRewards\",\"color\":\"blue\"},{\"text\":\"]\",\"color\":\"dark_gray\"},{\"text\":\" You received a Netherite Ingot! How will you use it? \",\"color\":\"gold\"}]"
+          ]
+		},
+        "item_group": {
+          "type": "item",
+          "item": "minecraft:netherite_ingot",
+          "item_data": {},
+          "count": 1
+		},
+        "item_group_2": {
+          "type": "item",
+          "item": "minecraft:netherite_upgrade_smithing_template",
+          "item_data": {},
+          "count": 1
+        }
+      }
+    },
+    "Ranger Rank 11": {
+      "icon": "cobblemon:master_ball",
+      "icon_data": {},
+      "required_caught_percent": 15.0,
+      "rewards": {
+	    "command_group": {
+          "type": "command",
+          "commands": [
+            "tellraw @a [\"\",{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"DexRewards\",\"color\":\"blue\"},{\"text\":\"]\",\"color\":\"dark_gray\"},{\"text\":\" You received a Master Ball! How will you use it? \",\"color\":\"gold\"}]"
+          ]
+		},
+        "item_group": {
+          "type": "item",
+          "item": "cobblemon:master_ball",
+          "item_data": {},
+          "count": 1
+        }
+      }
+    },
+    "Ranger Rank 12": {
+      "icon": "cobblemon:ability_patch",
+      "icon_data": {},
+      "required_caught_percent": 20.0,
+      "rewards": {
+	    "command_group": {
+          "type": "command",
+          "commands": [
+            "tellraw @a [\"\",{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"DexRewards\",\"color\":\"blue\"},{\"text\":\"]\",\"color\":\"dark_gray\"},{\"text\":\" You received an Ability Patch! Use it to change 1 Pokemon's ability to it's Hidden Ability! \",\"color\":\"gold\"}]"
+          ]
+		},
+        "item_group": {
+          "type": "item",
+          "item": "cobblemon:ability_patch",
+          "item_data": {},
+          "count": 1
+		},
+        "item_group_2": {
+          "type": "item",
+          "item": "cobblemon:quick_ball",
+          "item_data": {},
+          "count": 16
+        }
+      }
+    },
+    "Ranger Rank 13": {
+      "icon": "unimplemented_items:bottle_cap_gold",
+      "icon_data": {},
+      "required_caught_percent": 25.0,
+      "rewards": {
+	    "command_group": {
+          "type": "command",
+          "commands": [
+            "tellraw @a [\"\",{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"DexRewards\",\"color\":\"blue\"},{\"text\":\"]\",\"color\":\"dark_gray\"},{\"text\":\" You received 3 Gold Bottle Caps! Use it to max out 3 Pokemon's IVs! \",\"color\":\"gold\"}]"
+          ]
+		},
+        "item_group": {
+          "type": "item",
+          "item": "unimplemented_items:bottle_cap_gold",
+          "item_data": {},
+          "count": 3
+        }
+      }
+    },
+    "Ranger Rank 14": {
+      "icon": "simpletms:tm_blastburn",
+      "icon_data": {},
+      "required_caught_percent": 30.0,
+      "rewards": {
+	    "command_group": {
+          "type": "command",
+          "commands": [
+            "tellraw @a [\"\",{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"DexRewards\",\"color\":\"blue\"},{\"text\":\"]\",\"color\":\"dark_gray\"},{\"text\":\" You received powerful TMs! \",\"color\":\"gold\"}]"
+          ]
+		},
+        "item_group": {
+          "type": "item",
+          "item": "simpletms:tm_blastburn",
+          "item_data": {},
+          "count": 1
+		},
+        "item_group_2": {
+          "type": "item",
+          "item": "simpletms:tm_frenzyplant",
+          "item_data": {},
+          "count": 1
+		},
+        "item_group_3": {
+          "type": "item",
+          "item": "simpletms:tm_hydrocannon",
+          "item_data": {},
+          "count": 1
+        }
+      }
+    },
+    "Ranger Rank 15": {
+      "icon": "cobblemon:ancient_origin_ball",
+      "icon_data": {},
+      "required_caught_percent": 50.0,
+      "rewards": {
+	    "command_group": {
+          "type": "command",
+          "commands": [
+            "tellraw @a [\"\",{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"DexRewards\",\"color\":\"blue\"},{\"text\":\"]\",\"color\":\"dark_gray\"},{\"text\":\" You received an Ancient Origin Ball! \",\"color\":\"gold\"}]"
+          ]
+		},
+        "item_group": {
+          "type": "item",
+          "item": "cobblemon:ancient_origin_ball",
+          "item_data": {},
+          "count": 1
+        }
+      }
+    },
+    "Ranger Rank Genesect": {
+      "icon": "unimplemented_items:shiny_charm",
+      "icon_data": {},
+      "required_caught_percent": 60.0,
+      "rewards": {
+	    "command_group": {
+          "type": "command",
+          "commands": [
+            "tellraw @a [\"\",{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"DexRewards\",\"color\":\"blue\"},{\"text\":\"]\",\"color\":\"dark_gray\"},{\"text\":\" You received a Shiny Genesect! \",\"color\":\"gold\"}]"
+          ]
+		},
+	    "command_group_2": {
+          "type": "command",
+          "commands": [
+            "/givepokemonother @p genesect shiny=yes level=100 speed_iv=31 attack_iv=31 special_attack_iv=31 hp_iv=31 defence_iv=31 special_defence_iv=31"
+          ]
+        }
+      }
+    },
+    "Ranger Rank Victini": {
+      "icon": "unimplemented_items:shiny_charm",
+      "icon_data": {},
+      "required_caught_percent": 70.0,
+      "rewards": {
+	    "command_group": {
+          "type": "command",
+          "commands": [
+            "tellraw @a [\"\",{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"DexRewards\",\"color\":\"blue\"},{\"text\":\"]\",\"color\":\"dark_gray\"},{\"text\":\" You received a Shiny Victini! \",\"color\":\"gold\"}]"
+          ]
+		},
+	    "command_group_2": {
+          "type": "command",
+          "commands": [
+            "/givepokemonother @p Victini shiny=yes level=100 speed_iv=31 attack_iv=31 special_attack_iv=31 hp_iv=31 defence_iv=31 special_defence_iv=31"
+          ]
+        }
+      }
+    },
+    "Ranger Rank Rayquaza": {
+      "icon": "unimplemented_items:shiny_charm",
+      "icon_data": {},
+      "required_caught_percent": 80.0,
+      "rewards": {
+	    "command_group": {
+          "type": "command",
+          "commands": [
+            "tellraw @a [\"\",{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"DexRewards\",\"color\":\"blue\"},{\"text\":\"]\",\"color\":\"dark_gray\"},{\"text\":\" You received a Shiny Rayquaza! \",\"color\":\"gold\"}]"
+          ]
+		},
+	    "command_group_2": {
+          "type": "command",
+          "commands": [
+            "/givepokemonother @p rayquaza shiny=yes level=100 speed_iv=31 attack_iv=31 special_attack_iv=31 hp_iv=31 defence_iv=31 special_defence_iv=31"
+          ]
+        }
+      }
+    },
+    "Ranger Rank Mew": {
+      "icon": "unimplemented_items:shiny_charm",
+      "icon_data": {},
+      "required_caught_percent": 95.0,
+      "rewards": {
+	    "command_group": {
+          "type": "command",
+          "commands": [
+            "tellraw @a [\"\",{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"DexRewards\",\"color\":\"blue\"},{\"text\":\"]\",\"color\":\"dark_gray\"},{\"text\":\" You received a Shiny Mew! \",\"color\":\"gold\"}]"
+          ]
+		},
+	    "command_group_2": {
+          "type": "command",
+          "commands": [
+            "/givepokemonother @p mew shiny=yes level=100 speed_iv=31 attack_iv=31 special_attack_iv=31 hp_iv=31 defence_iv=31 special_defence_iv=31"
+          ]
+        }
+      }
+    },
+    "Ranger Rank Arceus": {
+      "icon": "minecraft:nether_star",
+      "icon_data": {},
+      "required_caught_percent": 100.0,
+      "rewards": {
+	    "command_group": {
+          "type": "command",
+          "commands": [
+            "tellraw @a [\"\",{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"DexRewards\",\"color\":\"blue\"},{\"text\":\"]\",\"color\":\"dark_gray\"},{\"text\":\" You received a Shiny Arceus! \",\"color\":\"gold\"}]"
+          ]
+		},
+	    "command_group_2": {
+          "type": "command",
+          "commands": [
+            "/givepokemonother @p arceus shiny=yes level=100 speed_iv=31 attack_iv=31 special_attack_iv=31 hp_iv=31 defence_iv=31 special_defence_iv=31"
+			]
+		}
+      }
+    }
+  }
+}

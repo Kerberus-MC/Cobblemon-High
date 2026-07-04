@@ -1,0 +1,32 @@
+{
+  "target": "cobblemon:rapidash",
+  "riding": {
+    "behaviours": {
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "stats": {
+          "ACCELERATION": "60-90",
+          "JUMP": "20-50",
+          "SKILL": "40-80",
+          "SPEED": "35-65",
+          "STAMINA": "35-75"
+        }
+      }
+    },
+    "seats": [
+      {
+        "offset": { "x": 0.0, "y": 0.0, "z": 0.0 },
+        "poseOffsets": [
+          { "offset": { "x": 0.0, "y": 0.0, "z": 0.0 }, "poseTypes": ["STAND", "WALK", "FLOAT", "SWIM"] }
+        ]
+      },
+      {
+        "offset": { "x": 0.25, "y": 0.0, "z": -0.5 },
+        "poseOffsets": [
+          { "offset": { "x": 0.25, "y": 0.0, "z": -0.5 }, "poseTypes": ["STAND", "WALK", "FLOAT", "SWIM"] }
+        ]
+      }
+    ]
+  }
+}
+

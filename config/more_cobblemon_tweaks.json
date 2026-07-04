@@ -1,0 +1,10 @@
+{
+  "pc_wallpapers": {
+    "dev.tropimon.fr": {
+      "1": "more_cobblemon_tweaks:textures/gui/pc/wallpapers/purple_wallpaper.png"
+    },
+    "play.tropimon.fr": {
+      "29": "more_cobblemon_tweaks:textures/gui/pc/wallpapers/purple_wallpaper.png"
+    }
+  }
+}

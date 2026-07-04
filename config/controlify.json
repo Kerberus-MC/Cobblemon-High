@@ -1,0 +1,140 @@
+{
+  "current_controller": "86d27b9b-246b-39aa-8c35-07314bdfac41",
+  "controllers": {
+    "24eab239-0a4a-3941-b7c2-7dbdd69d770b": {
+      "config": {
+        "controlify:input": {
+          "h_look_sensitivity": 1.0,
+          "v_look_sensitivity": 0.9,
+          "v_look_invert": false,
+          "virtual_mouse_sensitivity": 1.0,
+          "reduce_aiming_sensitivity": true,
+          "button_activation_threshold": 0.5,
+          "is_l_c_e": false,
+          "deadzones": {
+            "controlify:left_stick": 0.08001526,
+            "controlify:right_stick": 0.08001526
+          },
+          "deadzones_calibrated": true,
+          "delayed_calibration": false,
+          "mixed_input": false,
+          "keep_default_bindings": false,
+          "radial_actions": [
+            "controlify:toggle_hud_visibility",
+            "controlify:change_perspective",
+            "controlify:drop_stack",
+            "controlify:open_chat",
+            "controlify:swap_hands",
+            "controlify:pick_block",
+            "controlify:take_screenshot",
+            "controlify:show_player_list"
+          ],
+          "radial_button_focus_timeout_ticks": 20,
+          "mapping": null,
+          "bindings": {}
+        },
+        "controlify:config/generic": {
+          "nickname": null,
+          "auto_jump": false,
+          "toggle_sprint": false,
+          "toggle_sneak": false,
+          "disable_fly_drifting": false,
+          "show_ingame_guide": true,
+          "ingame_guide_bottom": false,
+          "show_screen_guides": true,
+          "show_on_screen_keyboard": true,
+          "dont_show_controller_submission": true
+        }
+      }
+    },
+    "86d27b9b-246b-39aa-8c35-07314bdfac41": {
+      "config": {
+        "controlify:input": {
+          "h_look_sensitivity": 1.0,
+          "v_look_sensitivity": 0.9,
+          "v_look_invert": false,
+          "virtual_mouse_sensitivity": 1.0,
+          "reduce_aiming_sensitivity": true,
+          "button_activation_threshold": 0.5,
+          "is_l_c_e": false,
+          "deadzones": {
+            "controlify:left_stick": 0.080045775,
+            "controlify:right_stick": 0.080045775
+          },
+          "deadzones_calibrated": true,
+          "delayed_calibration": false,
+          "mixed_input": false,
+          "keep_default_bindings": false,
+          "radial_actions": [
+            "fabric-key-binding-api-v1:key.travelersbackpack.inventory",
+            "controlify:change_perspective",
+            "controlify:drop_stack",
+            "controlify:open_chat",
+            "controlify:swap_hands",
+            "controlify:pick_block",
+            "controlify:take_screenshot",
+            "controlify:show_player_list"
+          ],
+          "radial_button_focus_timeout_ticks": 20,
+          "mapping": null,
+          "bindings": {
+            "controlify:drop": {},
+            "controlify:next_slot": {},
+            "controlify:prev_slot": {},
+            "controlify:hotbar_item_select_radial": {
+              "button": "controlify:button/left_shoulder"
+            },
+            "controlify:open_chat": {},
+            "fabric-key-binding-api-v1:key.cobblemon.summary": {
+              "button": "controlify:button/dpad_left"
+            },
+            "fabric-key-binding-api-v1:key.cobblemon.downshiftparty": {
+              "button": "controlify:button/dpad_down"
+            },
+            "fabric-key-binding-api-v1:key.cobblemon.upshiftparty": {
+              "button": "controlify:button/dpad_up"
+            },
+            "fabric-key-binding-api-v1:key.cobblemon.throwpartypokemon": {
+              "button": "controlify:button/right_shoulder"
+            },
+            "fabric-key-binding-api-v1:keybinds.combat_roll.roll": {
+              "button": "controlify:button/east"
+            }
+          }
+        },
+        "controlify:config/generic": {
+          "nickname": null,
+          "auto_jump": false,
+          "toggle_sprint": false,
+          "toggle_sneak": true,
+          "disable_fly_drifting": false,
+          "show_ingame_guide": true,
+          "ingame_guide_bottom": false,
+          "show_screen_guides": true,
+          "show_on_screen_keyboard": true,
+          "dont_show_controller_submission": false
+        }
+      }
+    }
+  },
+  "global": {
+    "virtual_mouse_screens": [
+      "net.minecraft.class_465",
+      "com.cobblemon.mod.common.client.gui.battle.BattleGUI"
+    ],
+    "keyboardMovement": false,
+    "keyboard_movement_whitelist": [],
+    "out_of_focus_input": false,
+    "load_vibration_natives": false,
+    "custom_vibration_natives_path": "",
+    "vibration_onboarded": true,
+    "reach_around": "OFF",
+    "allow_server_rumble": true,
+    "ui_sounds": false,
+    "notify_low_battery": true,
+    "quiet_mode": false,
+    "ingame_button_guide_scale": 1.0,
+    "use_enhanced_steam_deck_driver": true,
+    "seen_servers": []
+  }
+}

@@ -1,0 +1,80 @@
+debug = false
+disable_crowdin = false
+check_for_updates = true
+
+[[key_bindings]]
+keys = []
+name = "key.plasmovoice.general.mute_microphone"
+any_context = false
+category = "key.plasmovoice.general"
+
+[servers.52cde454-7c69-47ea-9578-4fd6d792e13a.distances]
+4aec07ba-d109-3345-9a0a-92022a116cd0 = 32
+[servers.b46fb9a4-499f-4e0e-98bf-cf701e4c7b28.distances]
+4aec07ba-d109-3345-9a0a-92022a116cd0 = 32
+
+[addons.pv-addon-soundphysics]
+mic_reverb = true
+mic_reverb_volume = 1.0
+enabled = true
+
+[voice]
+disabled = false
+microphone_disabled = false
+activation_threshold = -40.0
+input_device = ""
+output_device = ""
+disable_input_device = false
+use_javax_input = false
+microphone_volume = 2.0
+noise_suppression = false
+volume = 2.0
+compressor_limiter = true
+sound_occlusion = true
+directional_sources = false
+hrtf = true
+stereo_capture = false
+
+[voice.volumes.broadcast]
+volume = 1.0
+[voice.volumes.proximity]
+volume = 1.0
+[voice.volumes.source_7647e5c5-dafe-41d6-9659-1b0f0b2d4a1b]
+volume = 1.45
+[voice.volumes.source_db3a6edc-94fc-416a-aff0-40fa20e3b2a2]
+volume = 1.1
+[voice.volumes.source_0966c425-f42b-40c9-be6e-a4f444c2d035]
+volume = 1.4
+[voice.volumes.source_1232b959-9151-497a-8dbc-d245e2427a28]
+volume = 1.05
+[voice.volumes.source_9817f38f-23ed-43b5-8d03-984dd9744544]
+volume = 1.45
+
+[advanced]
+visualize_voice_distance = true
+visualize_voice_distance_on_join = false
+compressor_threshold = -10
+limiter_threshold = -6
+directional_sources_angle = 360
+stereo_sources_to_mono = false
+panning = true
+mute_player_on_direct = true
+camera_sound_listener = true
+exponential_volume_slider = true
+exponential_distance_gain = true
+jitter_packet_delay = 3
+al_playback_buffers = 5
+adaptive_jitter_buffer = false
+
+[overlay]
+show_activation_icon = true
+activation_icon_position = "BOTTOM_CENTER"
+show_source_icons = 0
+show_static_source_icons = true
+overlay_enabled = true
+overlay_position = "TOP_LEFT"
+overlay_style = "NAME_SKIN"
+
+[overlay.source_states]
+broadcast = "OFF"
+proximity = "OFF"

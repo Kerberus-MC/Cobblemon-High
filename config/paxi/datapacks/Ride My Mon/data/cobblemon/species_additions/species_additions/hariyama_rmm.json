@@ -1,0 +1,18 @@
+{
+  "target": "cobblemon:hariyama",
+  "riding":{
+    "behaviours":{
+      "LAND":{
+        "key":"cobblemon:land/horse",
+        "stats":{
+          "SPEED":"10-30",
+          "ACCELERATION":"5-80",
+          "SKILL":"35-70",
+          "JUMP":"5-10",
+          "STAMINA":"50-80"
+        }
+      }
+    },
+    "seats":[{"offset":{"x":0.0,"y":1.0,"z":0.0}}]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "target": "cobblemon:milotic",
+  "riding": {
+    "behaviours": {
+      "LIQUID": {
+        "key": "cobblemon:liquid/submarine",
+        "hitboxBreachPercentage": 0.7,
+        "rideSounds": [],
+        "stats": {
+          "ACCELERATION": "45-65",
+          "JUMP": "10-25",
+          "SKILL": "50-75",
+          "SPEED": "25-45",
+          "STAMINA": "60-75"
+        }
+      }
+    },
+    "seats": [
+      {
+        "offset": { "x": 0.0, "y": 1.2, "z": 0.0 }
+      },
+      {
+        "offset": { "x": 0.0, "y": 1.5, "z": -0.5 }
+      }
+    ]
+  }
+}

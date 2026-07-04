@@ -1,0 +1,8 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"tropifurnitures:jetski_light_blue"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tropifurnitures:jetski_lime"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tropifurnitures:jetski_pink"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tropifurnitures:xp_machine"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tropifurnitures:miracle_coin"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

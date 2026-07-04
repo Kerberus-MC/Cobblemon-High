@@ -1,0 +1,21 @@
+{
+  "target": "cobblemon:arctovish",
+  "riding": {
+    "behaviours": {
+      "LIQUID": {
+        "key": "cobblemon:liquid/dolphin",
+        "stats": {
+          "SPEED": "40-60",
+          "ACCELERATION": "30-50",
+          "SKILL": "30-50",
+          "JUMP": "10-20",
+          "STAMINA": "60-100"
+        }
+      }
+    },
+    "seats": [
+      { "offset": { "x": 0.0, "y": 1.2, "z": 0.0 } },
+      { "offset": { "x": 0.0, "y": 1.5, "z": -0.5 } }
+    ]
+  }
+}

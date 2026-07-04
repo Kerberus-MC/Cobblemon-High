@@ -1,0 +1,38 @@
+{
+  "target": "cobblemon:snorlax",
+  "riding": {
+    "behaviours": {
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "rideSounds": [],
+        "stats": {
+          "ACCELERATION": "20-35",
+          "JUMP": "5-15",
+          "SKILL": "25-50",
+          "SPEED": "15-25",
+          "STAMINA": "40-70"
+        }
+      }
+    },
+    "seats": [
+      {
+        "offset": { "x": 0.0, "y": -1.0, "z": 0.0 },
+        "poseOffsets": [
+          { "offset": { "x": 0.0, "y": -1.0, "z": 0.0 }, "poseTypes": ["STAND", "WALK", "FLOAT", "SWIM"] }
+        ]
+      },
+      {
+        "offset": { "x": 0.5, "y": -1.0, "z": 0.0 },
+        "poseOffsets": [
+          { "offset": { "x": 0.5, "y": -1.0, "z": 0.0 }, "poseTypes": ["STAND", "WALK", "FLOAT", "SWIM"] }
+        ]
+      },
+      {
+        "offset": { "x": -0.5, "y": -1.0, "z": 0.0 },
+        "poseOffsets": [
+          { "offset": { "x": -0.5, "y": -1.0, "z": 0.0 }, "poseTypes": ["STAND", "WALK", "FLOAT", "SWIM"] }
+        ]
+      }
+    ]
+  }
+}

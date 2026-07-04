@@ -1,0 +1,18 @@
+{
+    "rules" : [
+        {
+            "name" : "Allow cows...",
+            "what" : "ALLOW_SPAWN",
+            "when" : {
+                "entityId" : [ "cobblemon:*", "minecraft:spider", "minecraft:breeze", "minecraft:cave_spider", "minecraft:phantom", "radical_cobblemon_trainers:*", "radical_trainers:*", "rctmod:*", "trainer:*", "type:*", "minecraft:zombie", "minecraft:skeleton", "minecraft:blaze", "minecraft:bogged", "minecraft:creaking", "minecraft:elder_guardian", "minecraft:ender_dragon", "minecraft:enderdragon", "minecraft:evoker", "minecraft:ghast", "minecraft:guardian", "minecraft:hoglin", "minecraft:husk", "minecraft:magma_cube", "minecraft:piglin_brute", "minecraft:pillager", "minecraft:raver", "minecraft:shulker", "minecraft:stray", "minecraft:vex", "minecraft:vindicator", "minecraft:warden", "minecraft:witch", "minecraft:wither", "minecraft:wither_skeleton", "minecraft:zoglin", "minecraft:zombie_villager", "minecraft:wither", "minecraft:drowned", "minecraft:iron_golem", "minecraft:piglin", "minecraft:villager", "minecraft:wandering_trader", "minecraft:snow_golem"]
+            }
+         },
+        {
+            "name" : "...and nothing else",
+            "what" : "DISALLOW_SPAWN",
+            "when" : {
+				"entityId" : [ "minecraft:*", "aether:phyg", "aether:sheepuff", "aether:flying_cow", "aether:moa", "aether:aerbunny"]
+            }
+        }
+    ]
+}
